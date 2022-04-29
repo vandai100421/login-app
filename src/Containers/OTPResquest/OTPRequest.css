@@ -1,0 +1,23 @@
+.otprequest {
+    width: 360px;
+    /* min-width: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center; 
+}
+
+.otprequest__logo {
+    margin-top: 96px;
+    margin-bottom: 24px;
+}
+.otprequest > h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.otprequest .btnform {
+    margin-top: 16px;
+}

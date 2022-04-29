@@ -1,0 +1,165 @@
+.formlogin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+    position: static;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap-reverse;
+}
+
+.section__form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 50%;
+    height: 100vh;
+
+    top: 0;
+}
+.header {
+    width: 100%;
+    flex-grow: 2;
+}
+
+.header__logo {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.header__logo > img {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: flex-start;
+}
+.header__logo > .header__text {
+    font-weight: 500;
+    line-height: 32px;
+    color: #101828;
+}
+
+.content {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.content__header {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.inputform {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.request-normal {
+    display: inline-block;
+    margin-top: 6px;
+    color: #667085;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.request-highlight
+{
+    color: red;
+    display: flex;
+}
+
+.btnform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 24px;
+}
+
+
+.question {
+    align-self: center;
+    margin-top: 32px;
+    color: #667085;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.question a {
+    font-weight: 500;
+    color: #6941C6;
+}
+
+
+.footer {
+    flex-grow: 2;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+.footer__text {
+    margin-bottom: 32px;
+    margin-left: 32px;
+    display: flex;
+    align-items: end;
+
+    
+
+}
+.footer__mail {
+    margin-bottom: 32px;
+    margin-right: 32px;
+    display: flex;
+    align-items: end;
+}
+
+.footer__mail > img {
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+
+/* het phan section form */
+
+
+.section__img {
+    /* position: relative; */
+    background: #F9FAFB;
+
+    width: 50%;
+    height: 100vh;
+}
+
+.img_ip12 {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;  
+    /* bo qua do dai thua cua the con se k dc hien thi */
+}
+
+.img_ip12 img {
+    position: relative;
+    width: 60%;
+    top: 120px;
+    left: 187px;
+}
